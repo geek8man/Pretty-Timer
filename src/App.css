@@ -1,0 +1,28 @@
+html , 
+body,
+#root{
+  height: 100%;
+  width: 100%;
+}
+body ,
+h1{
+  margin: 0;
+}
+body{
+background-color: #111212;
+background-image: url(http://www.transparenttextures.com/patterns/asfalt-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#root{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+}
+.con{
+
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+}
+
